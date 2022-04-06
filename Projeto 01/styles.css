@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif; 
   text-align: center;
   margin: 0;
+  /* overflow: hidden; */
 }
 
 
@@ -42,10 +43,11 @@ p {
 }
 #footer a + a{
   margin-left: 28px;
+
   
 }
 #footer{
-  /* margin-bottom: 33px; */
+   margin-bottom: 33px; 
 }
 
 #line {
@@ -60,3 +62,12 @@ p {
   bottom: 0;
   right: 0;
 }
+
+@media screen and (max-width: 414px){
+  body,h1,p {
+    width: 60%;
+    
+}
+
+}
+
