@@ -1,3 +1,7 @@
+title {
+  opacity: 10.5
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -7,7 +11,8 @@ body {
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding: 65px;
 }
 
 nav {
@@ -32,8 +37,13 @@ a {
   text-decoration: none;
 }
 
+ul li a {
+  opacity: 0.5;
+}
+
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
   
 }
 h1 ul {
