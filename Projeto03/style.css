@@ -67,3 +67,32 @@ fieldset legend{
   padding-bottom: 16px;
 }
 
+.input-wrapper {
+  display: flex;flex-direction: column;
+ 
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  
+
+  color: #4e4958;
+}
+ .input-wrapper {
+   margin-left: 12;
+  
+ }
+
+ input {
+  width: 608px;
+  height: 88px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 18px auto;
+ }
+
+ #extra input {
+   width: 608px;
+   height: 160px;
+ }
