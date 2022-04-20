@@ -27,8 +27,7 @@ body::before {
 }
 
 .page{
-  width: 750px;
-  height: 1084px;
+  width: 736px;
   margin: auto;
 }
 
@@ -49,7 +48,7 @@ header h1{
 }
 
 header p {
-  font-family: 'Poppins' sans-serif;
+  font-family: Poppins;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -111,6 +110,10 @@ fieldset legend{
   flex-direction: row;
   gap: 22px;
 
+}
+
+.input-wrapper01 div {
+  width: 100%;
 }
 
 .input-wrapper label,
@@ -196,7 +199,7 @@ fieldset legend{
   opacity: 0;
 }
 
-/* .checkbox-wrapper label::before {
+.checkbox-wrapper label::before {
   content: '';
   width: 24px;
   height: 24px;
@@ -212,7 +215,7 @@ fieldset legend{
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
-} */
+}
 
 footer {
     background: #f0f0f4;
@@ -233,10 +236,10 @@ footer .button {
   border-radius: 8px;
   border: none;
   font-family: 'Staatliches';
-  text-transform: uppercase;
+  text-transform:uppercase ;
   
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 26px;
 
   color: #ffffff;
@@ -251,6 +254,6 @@ footer .button:hover {
   background: #c03f59
 }
 
-/* input:invalid {
+input:invalid {
   border: 1px solid #ff1010;
-} */
+}
