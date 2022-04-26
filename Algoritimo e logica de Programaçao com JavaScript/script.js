@@ -126,7 +126,7 @@ Fácil até aqui, né? Bora se desafiar? 👀 🧑‍🚀
 Lembre-se de sempre mostrar na tela o resultado de cada uma dessas operações!
 O resultado final desse desafio deve ser algo em torno de:
  
-*/
+
 
 
 {
@@ -166,3 +166,57 @@ O resultado final desse desafio deve ser algo em torno de:
   }
 
 }
+*/
+
+const estudantes = [
+  {
+    name: "Marcelo",
+    nota01: 7,
+    nota02: 8,
+  },
+
+  {
+    name: "Ricardo",
+    nota01: 6,
+    nota02: 6,
+  },
+
+  {
+    name: "Arthur",
+    nota01: 9,
+    nota02: 8.5,
+  },
+
+  {
+    name: "Lucas",
+    nota01: 9,
+    nota02: 8,
+  },
+
+
+]
+
+let estudantesNames = []
+
+for(let estudante of estudantes) {
+  estudantesNames.push(estudante.name)
+}
+
+alert(`A media do(a) aluno(a): 
+${estudantes[0].name}: è ${((estudantes[0].nota01) + (estudantes[0].nota02))/2} 
+Parabéns ${estudantes[0].name}(a) vc foi Aprovado no concurso!`)
+
+alert(`A media do(a) aluno(a): 
+${estudantes[1].name}: è ${((estudantes[1].nota01) + (estudantes[1].nota02))/2} 
+Não foi dessa vez. ${estudantes[1].name}(a) Tente novamente!`)
+
+alert(`A media do(a) aluno(a): 
+${estudantes[2].name}: è ${((estudantes[2].nota01) + (estudantes[2].nota02))/2} 
+Parabéns, ${estudantes[2].name}(a) você foi Aprovado no concurso!`)
+
+alert(`A media do(a) aluno(a): 
+${estudantes[3].name}: è ${((estudantes[3].nota01) + (estudantes[3].nota02))/2} 
+Parabéns ${estudantes[3].name}(a) vc foi Aprovado no concurso!`)
+
+
+
