@@ -1,6 +1,6 @@
 export default function(){
 
-  const buttonRain = new Audio("https://github.com/Paru369Marcelocerqueira/focus-timer/blob/main/sounds/Chuva.wav?raw=true") 
+  const buttonRain = new Audio("https://github.com/Marcelocerqueira/focus-timer/blob/main/sounds/Chuva.wav?raw=true") 
   const buttonNature = new Audio("https://github.com/Marcelocerqueira/focus-timer/blob/main/sounds/Floresta.wav?raw=true") 
   const buttonFire = new Audio("https://github.com/Marcelocerqueira/focus-timer/blob/main/sounds/Lareira.wav?raw=true") 
   const buttonCoffee = new Audio("https://github.com/Marcelocerqueira/focus-timer/blob/main/sounds/Cafeteria.wav?raw=true") 
