@@ -52,7 +52,7 @@ button {
 
 .play svg path,
 .pause svg path,
-.soud-on svg path {
+.sound-on svg path {
   fill: var(--text-color);
 }
 
