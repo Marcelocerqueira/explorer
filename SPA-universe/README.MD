@@ -1,4 +1,4 @@
-SinglePageAplicationUniverse
+Single PageAplication Universe
 
 Estudos MANIPULAÇAO DE ROTAS COM page aplication
 
@@ -14,17 +14,16 @@ Node.js + Browser
 package Desenvolvimento
 Single Page Aplication
 
-hammer_and_wrench Construído com
+Construído com
 HTML, CSS, JS
 
-pushpin Versão
-em construção
 
-black_nib Autores
+Autores:
+
 Desenvolvido com a Rocketseat
 
 Marcelo Cerqueira - Desafio desevolvidor
 
-gift Agradecimentos
+Agradecimentos
 Rocketseat
-keyboard com heart por Marcelo Cerqueira
+construido com amor por Marcelo Cerqueira
