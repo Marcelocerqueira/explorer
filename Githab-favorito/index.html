@@ -6,34 +6,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gitehub Favorites</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="style.css">
 
-  <title>Gitehub Favorites</title>
+
+  <script src="js/main.js" type="module" defer></script>
+
 </head>
+
 <body>
   <div id="app">
     <header>
-      <h1>Gitehub Favorites</h1>
-      <div>
-        <label for="input-search">Usuário do Gitehub</label>
+      <h1>Github Favorites</h1>
+      <div class="search">
+        <label class="sr-only" for="input-search">Usuário do Gitehub</label>
         <input id="input-search" type="text" placeholder="Usuário do Gitehub">
         <button>&plus;</button>
       </div>
     </header>
+
     <table>
-      <tr></tr>
-      <tbody>
         <thead>
           <tr>
-          <tr>Usuário</tr>
-          <tr>Repositórios</tr>
-          <tr>Seguidores</tr>
-          <tr></tr>
+          <th>Usuário</th>
+          <th>Repositórios</th>
+          <th>Seguidores</th>
+          <th></th>
         </tr>
         </thead>
-      </tbody>
+      <tbody>
       <tr>
         <td class="user">
           <img src="https://github.com/marcelocerqueira.png" alt="">
@@ -51,7 +55,7 @@
         </td>
 
         <td>
-          <button>&times;</button>
+          <button class="remove">&times;</button>
         </td>
 
       </tr>
@@ -73,11 +77,11 @@
         </td>
 
         <td>
-          <button>&times;</button>
+          <button class="remove">&times;</button>
           </td>
 
       </tr>
-
+      </tbody>
     </table>
 
   </div>
