@@ -33,6 +33,7 @@ header {
   font-weight: 400;
   font-size: 21.6667px;
   line-height: 22px;
+  
 
 
 }
@@ -78,21 +79,24 @@ a{
 
 
  .home{
-  background-image: url(/images/home.png);
+  background-image: url(/images/bg-home.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: absolute;
-  width:100vw;
-  height:100vh;
-  top:0;
-  z-index:-5;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+  /* border: 2px solid red; */
   
 }
 
 .about{
-  background-image: url(/images/about.png);
+  background-image: url(/images/bg-about.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: absolute;
   width:100vw;
   height:100vh;
@@ -101,9 +105,10 @@ a{
 }
 
 .explore{
-  background-image: url(/images/exploration.png);
+  background-image: url(/images/bg-exploration.png);
    background-repeat: no-repeat;
   background-size: cover;
+   background-position: center;
   position: absolute;
   width:100vw;
   height:100vh;
@@ -126,7 +131,7 @@ a{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 107px; 
+  margin-top: 7px; 
   
 }
 
